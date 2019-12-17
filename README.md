@@ -5,5 +5,7 @@
     - tên nhánh phụ : prestart__[HoTen]__[*]
   
 # Yêu cầu:
+    git clone abc
+    
 
 
