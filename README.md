@@ -10,13 +10,13 @@
 # Yêu cầu:
     - Nghiên cứu HTML, CSS, Javascript(ES6)
     - Nghiên cứu ReactJS: Basic to Advance
-#1. ReactJS Introducing:
+# ReactJS Introducing:
     1 - Single Page App  & Mutil-Page Application
     2 - Definition Of ReactJS
     3 - Native, Shadow & Virtual DOM
     4 - XML & JSX Syntax
     5 - Rendering
-#2. React Component:
+# React Component:
     1 - Class & Function component
     2 - State, Props & Lifecycle
     3 - Handling Component Event
@@ -25,16 +25,16 @@
     6 - Hook ( State Hook and Effect Hook )
     7 - Controlled & Uncontrolled Components
     8 - Higher-Order Component (HOC)
-#3. React Form:
+# React Form:
     1 - Input Tag & Handling Change Event ( single input and mutiple inputs )
     2 - The difference of textarea, select tag , file tag
     3 - Validating & Submit  Form, Fetch API
-#4. React Router:
+# React Router:
     1 - Router Types
     2 - Route Matching
     3 - Navigation
     4 - Recursive paths
-#5. Redux:
+# Redux:
     1 - Data Flow
     2 - Store
     3 - Action
