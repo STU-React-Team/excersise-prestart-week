@@ -168,12 +168,11 @@
                 backToTopButton.style.display = "block";
             }
             else {
-                backToTopButton.style.display = "nones";
+                backToTopButton.style.display = "none";
             }
         }
         
         function animateToTop(e) {
-            console.log("hgf")
             e.preventDefault();
             var scrollToTop = window.setInterval(function () {
                 var pos = window.pageYOffset;
