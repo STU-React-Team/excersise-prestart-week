@@ -28,9 +28,7 @@ const btnMenu = document.getElementById('btnMenu');
 const listMenu = document.getElementById('nav-main');
 
 btnMenu.addEventListener('click', function() {
-    const style = listMenu.style.display;
-    const styleBtn = btnMenu.style.transform;
-    listMenu.style.display = style == 'flex' ? 'none' : 'flex';
+    listMenu.classList.toggle("open");
 });
 const linkWhatWeDo = document.getElementById("whatwedo-link");
 const listWedo = document.getElementById('list-we-do');

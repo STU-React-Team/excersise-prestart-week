@@ -285,9 +285,10 @@ textarea {
     margin: 0 0 0 10px;
     content: '\f0d7'
 }
-#whatwedo:hover  .list-wedo {
+#whatwedo:hover .list-wedo {
     display: block;
 }
+
 
 #scroll-on-top:hover {
     background: #333;
@@ -316,7 +317,7 @@ textarea {
 .nav-rep img {
     line-height: 60px;
     margin: 20px auto;
-    
+    z-index : 1000;
 }
 .footer-bottom {
     width: 100%;
@@ -337,10 +338,15 @@ textarea {
 .row {
     padding-left: 20px;
 }
+
+.open {
+    display: flex !important;
+}
 @media only screen and (min-width: 928px){
     .main-nav {
         display : flex;
         flex-direction: row;
+        transition : all .3s ease
     }
 }
 @media only screen and (max-width: 928px) {
@@ -388,7 +394,7 @@ textarea {
     #whatwedo {
         width: 100% !important;
     }
-    #whatwedo-link:hover .listwedo {
+    #whatwedo-link:hover .list-wedo {
         display : none;
     }
     
