@@ -305,6 +305,7 @@ textarea {
     z-index: 1000;
     text-align: center;
     display: none;
+    cursor: pointer;
 }
 .nav-rep i {
     float:left;
@@ -333,9 +334,13 @@ textarea {
     font-weight: 300;
     line-height: 79px;
 }
-@media only screen and (max-width: 552px){
-    .footer > div > .left > ul > li > a {
-        font-size : 12px;
+.row {
+    padding-left: 20px;
+}
+@media only screen and (min-width: 928px){
+    .main-nav {
+        display : flex;
+        flex-direction: row;
     }
 }
 @media only screen and (max-width: 928px) {
@@ -355,7 +360,6 @@ textarea {
     .main-nav {
         flex-direction: column;
         display: none;
-        
     }
     .main-nav > li {
         background-color: #333;
@@ -376,8 +380,6 @@ textarea {
         background-color: white;
         border-bottom: 1px solid #ccc;
     }
-   
-    
     .nav > ul > li > a {
         color: #007bff;
         line-height: 50px;
@@ -428,6 +430,11 @@ textarea {
     }
     .banner{
         height: 460px;
+    }
+}
+@media only screen and (max-width: 552px){
+    .footer > div > .left > ul > li > a {
+        font-size : 12px;
     }
 }
 

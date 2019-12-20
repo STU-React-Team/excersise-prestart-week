@@ -30,7 +30,7 @@ const listMenu = document.getElementById('nav-main');
 btnMenu.addEventListener('click', function() {
     const style = listMenu.style.display;
     const styleBtn = btnMenu.style.transform;
-    listMenu.style.display = style == 'block' ? 'none' : 'block';
+    listMenu.style.display = style == 'flex' ? 'none' : 'flex';
 });
 const linkWhatWeDo = document.getElementById("whatwedo-link");
 const listWedo = document.getElementById('list-we-do');
